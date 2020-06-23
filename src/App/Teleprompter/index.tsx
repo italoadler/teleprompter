@@ -47,7 +47,7 @@ export default function() {
         <Grid container spacing={4} justify='center' alignItems='center'>
           <Grid item>
             <FormControlLabel
-              control={<TextField placeholder='Enter script.' value={text} onChange={onTextInputChange}/>}
+              control={<TextField placeholder='Escrever o roteiro.' value={text} onChange={onTextInputChange}/>}
               label={<Description/>}/>
           </Grid>
           <Grid item>
@@ -67,18 +67,12 @@ export default function() {
                               label={<SwapHoriz/>}/>
           </Grid>
           <Grid item>
-            <Button onClick={scrollToBottom} variant='outlined'>Start</Button>
+            <Button onClick={scrollToBottom} variant='outlined'>Iniciar</Button>
           </Grid>
           <Grid item>
             <Button onClick={onFullScreenButtonClick} variant='outlined'><Fullscreen/></Button>
           </Grid>
           <Grid item>
-            <a className={styles.githubLink}
-               href='https://github.com/kevinhwang/teleprompter'
-               target='_blank'
-               rel='noopener noreferrer'>
-              <GitHub/>
-            </a>
           </Grid>
         </Grid>
       </AppBar>
