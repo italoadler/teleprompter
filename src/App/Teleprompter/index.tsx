@@ -1,7 +1,7 @@
 import React, {ChangeEvent, useState} from 'react'
 
 import {AppBar, Button, FormControlLabel, Grid, Slider, Switch, TextField, useTheme} from '@material-ui/core'
-import {Description, FastForward, Fullscreen, GitHub, SwapHoriz, TextFields} from '@material-ui/icons'
+import {Description, FastForward, Fullscreen, SwapHoriz, TextFields} from '@material-ui/icons'
 import useWindowScrollPosition from '@rehooks/window-scroll-position'
 import Scroll from 'react-scroll'
 import screenfull from 'screenfull'
