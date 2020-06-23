@@ -2,6 +2,7 @@
   "name": "teleprompter",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://master.d2m7uo8pm6631i.amplifyapp.com/",
   "dependencies": {
     "@material-ui/core": "^4.9.13",
     "@material-ui/icons": "^4.9.1",
